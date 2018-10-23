@@ -44,7 +44,6 @@ int main(){
     int floors, eggs;
     cout<<"\nEnter the number of floors and eggs: ";
     cin>>floors>>eggs;
-    cout<<"Hello";
     int min_trial_needed = egg_drop(floors, eggs);
     cout<<"\nThe minimum number of eggs needed to find the breaking point: "<<min_trial_needed<<endl;
     return 0;
