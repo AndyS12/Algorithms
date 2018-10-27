@@ -2,10 +2,10 @@
 #include<stdio.h> 
 
 void swap(int* a, int* b) 
-{ 
-	int t = *a; 
-	*a = *b; 
-	*b = t; 
+{  
+	*a = *a + *b; 
+	*b = *a - *b;
+	*a = *a - *b;
 } 
 
 int partition (int array[], int low, int high) 
