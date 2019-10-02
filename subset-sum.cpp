@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 bool subset_sum(int arr[], int n, int sum){
     bool dp[n+1][sum+1];
     for(int i=0; i<=n; i++){
@@ -31,6 +30,7 @@ bool subset_sum(int arr[], int n, int sum){
     }
     return dp[n][sum];
 }
+
 int main(){
     cout<<"Enter the no of elements in the array: ";
     int n;  cin>>n;
